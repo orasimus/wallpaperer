@@ -1,0 +1,25 @@
+name:                wallpaperer
+version:             0.1.0.0
+-- synopsis:
+-- description:
+-- license:
+-- license-file:        LICENSE
+author:              Otso Rasimus
+maintainer:          orasimus@gmail.com
+-- copyright:
+-- category:
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable wallpaperer
+  main-is:             ./Main.hs
+  -- other-modules:
+  build-depends:       base ==4.6.*
+                     , bytestring
+                     , HandsomeSoup
+                     , hxt
+                     , MaybeT
+                     , mtl
+                     , split
+                     , regex-posix
+                     , transformers
